@@ -1,5 +1,5 @@
 const promiseOne = new Promise(function(resolve,reject){
-    //D o an async task
+    //Do an async task
     // DB calls, cryptography, network
     setTimeout(() => {
         console.log('Async task is complete')
